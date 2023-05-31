@@ -259,7 +259,7 @@ Resources:
       ProductionVariants:
         - InitialInstanceCount: 1
           InitialVariantWeight: 1.0
-          InstanceType: "ml.g5.24xlarge"
+          InstanceType: "ml.g4dn.12XL"
           ModelName: !GetAtt EmbeddingModel.ModelName
           VariantName: !GetAtt EmbeddingModel.ModelName
     Metadata:
